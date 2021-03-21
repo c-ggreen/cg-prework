@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Header START */
+#header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f3f3f3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: monospace;
+}
+li a:hover {
+  background-color: #0cca4a;
+}
+li #myname {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: monospace;
+  background-color: #f3f3f3;
+}
+/* Header END */
+
+/* Buffer/General Page Layout START */
+body {
+  background-color: #fcfafa;
+}
+#content {
+  padding-top: 6em;
+  font-family: monospace;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-size: 14px;
+  background-color: #fcfafa;
+}
+#pagetitle {
+  color: #0cca4a;
+  font-size: 4em;
+  font-style: italic;
+}
+.copywrite {
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+}
+/* Buffer zone/General Page Layout END */
+
+/* Homepage Specifics START */
+.hello {
+  font-style: italic;
+  font-size: 2em;
+  padding-top: 1em;
+}
+#intropara {
+  padding-top: 8px;
+  color: #404c4f;
+}
+img {
+  padding-top: 2em;
+  height: 50%;
+  width: 50%;
+}
+.funfact {
+  font-style: italic;
+  padding-bottom: 2em;
+}
+/* Homepage Specifics END */
+
+/* About Specifics START */
+.whoami {
+  padding-top: 1em;
+  font-size: 20px;
+}
+.whoami2 {
+  list-style-type: none;
+  text-align: left;
+  padding-top: 8px;
+  padding-left: 250px;
+}
+
+table {
+  border: dashed;
+  border-width: 100%;
+  width: 75%;
+  margin: auto;
+  padding: 8px;
+}
+/* About Specifics END */
+
+/* FAQ Specifics START */
+.qaa {
+  padding-top: 1em;
+}
+.qaa2 {
+  padding-top: 2em;
+}
+form {
+  padding-top: 1em;
+  padding-bottom: 4em;
+  width: 50%;
+  margin: auto;
+}
+.ft {
+  border: solid;
+  border-width: 1px;
+}
+textarea {
+  width: 100%;
+  border: solid;
+  border-width: 1px;
+}
+/* FAQ Specifics END */
